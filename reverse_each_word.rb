@@ -7,6 +7,7 @@
 # array.reverse_each = ["olleH", "ereht,", "dna", "woh", "era", "?uoy"
 
 def reverse_each_word(string)
+  array = string.split
   array.split.collect do |element|
     element.reverse
   end
